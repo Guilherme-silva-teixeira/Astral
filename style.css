@@ -231,3 +231,35 @@ body
         transition: 0.5s ease;
     }
 }
+
+#scFooter
+{
+    height: 100vh;
+    background: #fff;
+    color: #000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#scFooter h1
+{
+    margin-bottom: 100px;
+    font-family: 'poppins',sans-serif;
+    font-size: 33px;
+}
+
+#scFooter button
+{
+    height: 37px;
+    width: 231px;
+    background: #000;
+    color: #fff;
+    border-radius: 7px;
+    font-family: 'poppins',sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
