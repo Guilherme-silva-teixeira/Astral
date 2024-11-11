@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+
+#popupArea
+{
+    position: absolute;
+    z-index: 1;
+}
+
+#top
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header01
+{
+    position: fixed;
+    width: 100%;
+    margin-top: -13px;
+    padding: 0 7px 0 7px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    flex-direction: column;
+}
+
+#bottom, #header02
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-top: -7px;
+}
+
+#middle
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#search
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 7px;
+    height: 23px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    width: 193px;
+}
+
+#search input
+{
+    border: 0;
+    padding: 3.3px;
+    cursor: pointer;
+    height: 21px;
+    border-radius: 7px;
+}
+
+#search button
+{
+    margin-right: 3px;
+    height: 100%;
+    width: 17px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 1.9px;
+    background: #fff;
+}
+
+#logo img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    zoom: 455%;
+}
+
+#right button
+{
+    height: 27px;
+    width: 27px;
+    background: #0000;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#middle
+{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#middle a
+{
+    text-decoration: none;
+    color: #000;
+    font-family: 'poppins',sans-serif;
+    font-weight: 300;
+}
+
+#middle a:nth-child(1)
+{
+    margin-right: 13px;
+}
+
+#middle a:nth-child(2)
+{
+    margin-right: 7px;
+}
+
+#departmentView
+{
+    width: 165px;
+    height: 27px;
+    background: #000;
+    font-family: 'poppins',sans-serif;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#header02 a
+{
+    text-decoration: none;
+    font-family: 'poppins';
+    color: #333;
+    margin: 0 7px 0 7px;
+    font-weight: 300;
+}
+
+#products
+{
+    margin-top: 133px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 7px;
+}
+
+#productArea
+{
+    width: 100%;
+    height: 367px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#product
+{
+    height: 355px;
+    width: 207px;
+    border: 1px solid #000;
+    margin-right: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#productBottom
+{
+    margin-left: 7px;
+}
+
+#productTitle
+{
+    font-family: 'poppins',sans-serif;
+}
+
+#lin1
+{
+    font-family: 'poppins',sans-serif;
+    color: #777;
+    font-weight: 200;
+    font-size: 13px;
+}
+
+#lin2
+{
+    font-family: 'poppins',sans-serif;
+    color: #000;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+#lin3
+{
+    font-weight: 200;
+    font-family: 'poppins',sans-serif;
+    color: #777;
+    font-size: 13px;
+}
+
+#addToCart
+{
+    height: 27px;
+    width: 147px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12.7px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 300;
+    border-radius: 3px;
+    margin-top: 3px;
+}
