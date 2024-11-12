@@ -274,13 +274,13 @@ body
 
 #scFooter #boxMiddle
 {
-    height: 10%;
+    height: 12%;
     background: #404051;
 }
 
 #scFooter #boxDown
 {
-    height: 20%;
+    height: 18%;
     background: #272727;
 }
 
@@ -292,4 +292,19 @@ body
     font-weight: 300;
     color: #4a4a4a;
     width: 300px;
+}
+
+#boxMiddle
+{
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#boxMiddle #copy
+{
+    font-family: 'poppins',sans-serif;
+    font-size: 13px;
+    color: #fff;
 }
