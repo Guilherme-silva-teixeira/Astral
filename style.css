@@ -10,16 +10,26 @@
     box-sizing: border-box;
 }
 
+header
+{
+    width: 100%;
+    display: flex;
+    position: fixed;    
+    backdrop-filter: blur(17px);
+    background-color: #fffd;
+}
+
 #fixed
 {
+    margin-left: 13px;
+    margin-right: 13px;
     height: 47px;
     width: 100%;
-    padding: 0 7px 0 7px;
-    position: fixed;
+    padding: 0 7px 0 7px;    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    border-bottom: 1.7px solid #ddd7;
 }
 
 #fixed #logo img
@@ -59,6 +69,7 @@
     padding-left: 3px;
     width: 273px;
     border-radius: 7px;
+    background-color: #0000;
 }
 
 #fixed #links
